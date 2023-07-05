@@ -1,0 +1,87 @@
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+     text-align: center;
+     font-size: 45px;
+}
+
+h3#header{
+    font-weight: bold;
+    font-style : italic:
+    font-size:  32px;
+    text- align:center
+}
+hr{
+   border : 1px solid black;
+}
+
+/*start editing horizontal menu*/
+.list {
+  list-style-type: none;
+  marging; 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+}
+
+.first
+{
+float:left;
+font-style: bold;
+color: white;
+text-alignp: center;
+padding: 15px 26px;
+}
+
+.itemData
+{
+
+background-color: white;
+margin: 16px 12px 12px 12px;
+boder style: groove;
+border-color: green;
+padding:4px;
+}
+
+
+div.newslayout {
+	border: 3px solid purple;
+	margin: 25px 20px 20px 20px;
+}
+.bttn1{
+	margin: 8px 4px 4px 4px;
+	width:20%;
+	height:50px;
+	background-color: pink;
+	font-size: 16px;
+	font-weight: bold;
+}
+.text1{
+	font-size: 16px;
+	font-family: Georgia, serif;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+	font-variant: normal;
+	text-transform: none;	
+}
+
+.f
+{
+
+color: pink;
+display: inline;
+}
+
+.footer
+{
+text-align: center;
+}
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html> 
+ <head>                                                   
+ <!-- add a title (a) --> 
+  <title>Registration form</title>
+  <link rel="stylesheet" type="text/css" href="lab3.css">
+  <style>
+     body {
+     background-image: url("images/bgn.webp");
+     background-attachment: fixed;
+     background-size:  100%;
+ </style>
+ </head>
+ <body> 
+ <img class="logo" src="images/shoppingcart.jpg" alt="Shopping Cart" width="200" height="200">
+ <center>
+ <h1>Shopping Cart</h1>
+ <h3 id = "header">Registration form</h3>
+ </center>
+ <hr id="test">
+<center>
+<ul class="list">
+<li class = "first"><a href ="#">Home</a></li>
+<li class = "first"><a href ="news.html">News</a></li>
+<li class = "first"><a href ="register.html">contact</a></li>
+<li class = "first">About</li>
+</ul>
+</center>
+
+
+       
+<form action="get">
+First Name:<br>
+	<input type="text" name="firstname" placeholder="Enter First Name" required><br><br>
+Last Name:<br>
+	<input type="text" name="lastname" placeholder="Enter Second Name" required><br><br>
+Gender:<br>
+	<input type="radio" name="btn1" checked>Male
+	<input type="radio" name="btn1">Female<br><br>
+Mobile Number:<br>
+	<input type="phone" name="mobile" placeholder="0775650956" pattern="[0-9]{10}"><br><br>
+Email Address:<br>
+	<input type="email" name="email" placeholder="abc@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9._%+-]+\.[a-z]{2,3}" required><br><br>
+Address:<br>
+	<textarea name="address" rows="8" cols="60" required></textarea><br><br>
+DOB:<br>
+	<input type="date" name="dob" required><br><br>	
+Select Year:<br>
+	<select name="year" id="year">
+		<option value="1995">1995</option>
+		<option value="1996">1996</option> 
+		<option value="1997">1997</option>
+		<option value="1998">1998</option>
+		<option value="1999">1999</option>
+		<option value="2000">2000</option>
+		<option value="2001">2001</option>
+		<option value="2002">2002</option>
+		<option value="2003">2003</option>
+		<option value="2004">2004</option>
+		<option value="2005">2005</option>
+	</select><br><br>
+Password:<br>
+	<input type="password" id="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required<br><br>
+RE Password:<br>
+	<input type="password" id="repwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required<br><br>
+
+<input type="checkbox" id="checkbox" >accept privay policy and terms<br><br>
+
+<input type="submit" id="submitbtn" value="submit"  disabled>
+</form>
+
+ 
+ <hr>
+ 
+ <center>
+ <h2>Created by: Rashmi </h2>
+ <h3><a href="https://courseweb.sliit.lk/"> <f class="footer">Visit to our store</a></h3>
+ 
+ </body> 
+</html>
